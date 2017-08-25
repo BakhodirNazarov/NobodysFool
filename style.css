@@ -273,6 +273,8 @@ input[type="search"]{
     color: #fff;;
     font-size: 0.75em;
     text-transform: uppercase;
+    margin-bottom: 23px;
+    font-weight: 400;
 }
 
 .footer{
@@ -283,7 +285,9 @@ input[type="search"]{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
+    padding-top: 45px;
+    height: 386px;
 }
 
 .aboutus{
@@ -295,7 +299,8 @@ input[type="search"]{
 
 .aboutus a img{
     border: 1px solid #555;
-    padding: 1px;
+    padding: 4px;
+    margin-bottom:20px ;
 }
 
 .aboutus .detail{
@@ -318,6 +323,13 @@ input[type="search"]{
     align-items: flex-start;
 }
 
+.navli{
+    border-bottom: 1px solid #232323;
+}
+
+.navli:nth-child(10){
+    border-bottom: none;
+}
 
 .navbar .navli::before{
     vertical-align: middle;
@@ -339,6 +351,17 @@ input[type="search"]{
     color: #555;   
 }
 
+.tit{
+    font-size: 0.625em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.post a, .post2 a{
+    text-transform: capitalize;
+    color: #0099ff;
+    font-size: 0.75em;
+}
+
 .latest{
     display: inline-flex;
     flex-flow: column wrap;
@@ -346,7 +369,70 @@ input[type="search"]{
     justify-content: space-around;
 }
 
-.post p{
+.cbform{
+    display: inline-flex;
+    justify-content: space-around;
+    flex-flow: column wrap;
+    align-items: flex-start; 
+}
+
+.post p, .post2 p{
     color: #555;
-    width: 130px;   
+    width: 234px;   
+}
+
+input[placeholder="Name"]{
+    background-color: #232323;
+    color: #989898;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    width: 225px;
+    padding-left: 8px;
+    margin-bottom: 10px;
+}
+
+input[placeholder="Email"]{
+    background-color: #232323;
+    color: #989898;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    width: 225px;
+    padding-left: 8px;
+    margin-bottom: 10px;
+}
+
+input[placeholder="Subject"]{
+    background-color: #232323;
+    color: #989898;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    width: 225px;
+    padding-left: 8px;
+    margin-bottom: 10px;
+}
+
+input[placeholder="Message"]{
+    background-color: #232323;
+    color: #989898;
+    border-radius: 5px;
+    border: none;   
+    height: 110px;      
+    width: 225px;
+    padding-left: 8px;
+    margin-bottom: 10px;
+}
+
+.cbform button{
+    border-radius: 4px;
+    font-size: 0.75em;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #0099ff;
+    color: #fff;
+    text-transform: uppercase;
+    border:none;
+    height: 31px;
 }
