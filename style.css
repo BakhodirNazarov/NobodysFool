@@ -279,6 +279,7 @@ input[type="search"]{
 
 .footer{
     background-color: #1a1a1a;
+    border-bottom: 1px solid #2d2d2d;
 }
 
 .wrapper3{
@@ -308,12 +309,15 @@ input[type="search"]{
     color: #555;
     font-family: georgia;
     font-size:0.75em;
+    margin-bottom: 14px;
 }
 
 .more{
     color: #0099ff;
     font-size: 0.75em;
     text-transform: capitalize;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .quick{
@@ -352,6 +356,8 @@ input[type="search"]{
 }
 
 .tit{
+    width: 148px;
+    margin-bottom: 20px;
     font-size: 0.625em;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -360,6 +366,8 @@ input[type="search"]{
     text-transform: capitalize;
     color: #0099ff;
     font-size: 0.75em;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .latest{
@@ -378,7 +386,6 @@ input[type="search"]{
 
 .post p, .post2 p{
     color: #555;
-    width: 234px;   
 }
 
 input[placeholder="Name"]{
@@ -435,4 +442,32 @@ input[placeholder="Message"]{
     text-transform: uppercase;
     border:none;
     height: 31px;
+}
+
+.nom{
+    margin-bottom: 19px;
+}
+
+.post a{
+    margin-bottom: 10px;
+}
+
+/* Copyright block */
+
+.copyright{
+    background-color: #222;
+}
+
+.wrp{
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.span1, .span2{
+    text-transform: capitalize;
+    color: #666;
+    font-size: 0.75em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
